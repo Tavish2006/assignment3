@@ -1,0 +1,15 @@
+{
+  "name": "assignment2",
+  "version": "1.0.0",
+  "description": "PostgreSQL CRUD app for students table",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "demo": "node index.js getAll"
+  },
+  "dependencies": {
+    "dotenv": "^16.6.1",
+    "pg": "^8.16.3"
+  }
+}
